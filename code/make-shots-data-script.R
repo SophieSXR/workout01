@@ -18,7 +18,7 @@ curry$name<-rep("Stephen Curry",1250)
 thompson$name<- rep("Klay Thompson", 1220)
 durant$name <- rep("Kevin Durant",915)
 iguodala$name<- rep("Andre Iguodala", 371)
-green$name<- rep("Graymond Green",578)
+green$name<- rep("Draymond Green",578)
 
 #change the values of shot_made_flag to more descriptive value 
 curry$shot_made_flag[curry$shot_made_flag=="n"]<-"shot_no"
@@ -54,7 +54,7 @@ sink()
 sink("andre-iguodala-summary.txt")
 print(summary(iguodala))
 sink()
-sink("graymond-green-summary.txt")
+sink("draymond-green-summary.txt")
 print(summary(green))
 sink()
 sink("kevin-durant-summary.txt")
