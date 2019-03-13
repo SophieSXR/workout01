@@ -1,0 +1,18 @@
+---
+title: "workout01-xinran-song"
+author: "Xinran-Song"
+date: "2019/3/11"
+output: github_document
+---
+
+```{r}
+
+#import data set
+shots_data<-read.csv("../data/shots-data.csv",stringsAsFactors = FALSE)
+table(summary(shots_data))
+```
+
+
+```{r out.width='80%',echo=FALSE,fig.align='center'}
+knitr::include_graphics('../images/gsw-shot-charts.png')
+```
